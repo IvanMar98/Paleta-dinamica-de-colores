@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.nav-center{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.nav-center > ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.nav-center >ul >li{
+    padding-left: 1rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+.colorName{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: bisque;
+    border-radius: 1rem;
+}
+.buttonToggle{
+    text-align: center;
+}
+.buttonToggle > button{
+    padding: 1rem;
+    background-color: transparent;
+    border-radius: 1rem;
+    border: solid 2px black;
+}
